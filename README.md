@@ -20,7 +20,9 @@ Bkremenovic\Licenceplate\LicenceplateServiceProvider::class,
 ```
 
 ### Run the command below to publish the package config file config/licenceplate.php:
-```php artisan vendor:publish --provider="Bkremenovic\Licenceplate\LicenceplateServiceProvider"```
+```
+php artisan vendor:publish --provider="Bkremenovic\Licenceplate\LicenceplateServiceProvider"
+```
 
 
 # Usage
