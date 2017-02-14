@@ -15,9 +15,13 @@ Bkremenovic\Licenceplate\LicenceplateServiceProvider::class,
 ```
 
 ### In the same config/app.php and add the following to the aliases array: 
-```'
-Licenceplate' => Bkremenovic\Licenceplate\Facades\Licenceplate::class,
 ```
+'Licenceplate' => Bkremenovic\Licenceplate\Facades\Licenceplate::class,
+```
+
+### Run the command below to publish the package config file config/licenceplate.php:
+```php artisan vendor:publish --provider="Bkremenovic\Licenceplate\LicenceplateServiceProvider"```
+
 
 # Usage
 Use ```recognize()``` method using an image as a parameter (either remote or local).
