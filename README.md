@@ -23,7 +23,7 @@ Licenceplate' => Bkremenovic\Licenceplate\Facades\Licenceplate::class,
 Use ```recognize()``` method using an image as a parameter (either remote or local).
 If the licence plate has been successfully recognized, it will return a string containing your licence plate. Otherwise, it will return null.
 
-## Example:
+### Example:
 
 ```
 Licenceplate::recognize("licence.jpg")
