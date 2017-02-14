@@ -24,5 +24,9 @@ Use ```recognize()``` method using an image as a parameter (either remote or loc
 If the licence plate has been successfully recognized, it will return a string containing your licence plate. Otherwise, it will return null.
 
 ```
-Licenceplate::recognize("licence.jpg")``` or ```Licenceplate::recognize("http://example.com/licence.jpg")
+Licenceplate::recognize("licence.jpg")
+```
+or
+```
+Licenceplate::recognize("http://example.com/licence.jpg")
 ```
