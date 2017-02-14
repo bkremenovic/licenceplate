@@ -1,0 +1,25 @@
+{
+	"name": "bkremenovic/licenceplate",
+	"description": "Licence plate recognition for Laravel 5",
+	"keywords": ["laravel", "licenceplate", "licence", "plate", "recognition"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "bkremenovic",
+			"email": "bkremenovic@croz.net"
+		}
+	],
+	"minimum-stability": "dev",
+	"require": {
+		"intervention/image": "dev-master|~2,>=2.2.0",
+		"illuminate/support": "5.1.*|5.2.*|5.3.*|5.4.*",
+		"illuminate/session": "5.1.*|5.2.*|5.3.*|5.4.*",
+		"illuminate/events": "5.1.*|5.2.*|5.3.*|5.4.*"
+	},
+	"autoload": {
+        "psr-4": {
+            "Bkremenovic\\Licenceplate\\": "src/",
+            "Intervention\\Image\\": "src/Intervention/Image"
+        }
+    }
+}
