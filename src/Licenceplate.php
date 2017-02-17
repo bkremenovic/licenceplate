@@ -46,7 +46,7 @@ class Licenceplate {
     	$ocr = collect($response)->get("results");
         
         if($ocr) {
-            return dd($ocr[0]["plate"]);
+            return $ocr[0]["plate"];
         } else {
             return null;
         }
